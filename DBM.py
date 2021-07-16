@@ -41,12 +41,12 @@ def create():
    
     #ATENCION ES UNA FORMA DIFERENTE DE HACERLO-------------
     
-	"""myCursor.execute("INSERT INTO ALUMNOS_GUADALUPE \
-	VALUES(NULL,'" + nombreEntryVariable.get() + 
-	"','" + apellidoEntryVariable.get()+ 
-	"','" + passwordEntryVariable.get()+
-	"','"+direccionEntryvariable.get()+
-	"','"+cuadroText.get(1.0,END)+"')")"""
+	# """myCursor.execute("INSERT INTO ALUMNOS_GUADALUPE \
+	# VALUES(NULL,'" + nombreEntryVariable.get() + 
+	# "','" + apellidoEntryVariable.get()+ 
+	# "','" + passwordEntryVariable.get()+
+	# "','"+direccionEntryvariable.get()+
+	# "','"+cuadroText.get(1.0,END)+"')")"""
 
 	newDB.commit()
 	messagebox.showinfo("Aviso","Su registro ha sido agregado satisfactoriamente")
